@@ -10,3 +10,6 @@ const student = 'Amit Sarkar';
 for (const char of student) {
     console.log(char);
 }
+
+// Note that : for of use on array or string not in object
+// Note that -2 :for in use only in object
