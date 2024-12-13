@@ -13,6 +13,9 @@ const values = Object.values(watch);
 const pair = Object.entries(watch);
 console.log(pair);
 
+// delete an property from objects
+delete watch.isSold;
+console.log(watch);
 // array of array , two dimensional array
 
 // [
