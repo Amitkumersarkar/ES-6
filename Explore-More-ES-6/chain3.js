@@ -13,6 +13,7 @@ const user = {
         }
     }
 }
+// we can apply optional chain (?) sign if second object not working
 console.log(user.ip, user.name, user.city);
 console.log(user.address.section, user.address.roadNo, user.address.block);
 console.log(user.address.institution.uniName, user.address.institution.dept);
