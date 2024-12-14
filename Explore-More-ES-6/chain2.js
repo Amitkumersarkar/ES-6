@@ -28,4 +28,3 @@ console.log(products.data[1].serialNumber);
 console.log(products.data[1].productName);
 console.log(products.data[1].brandName);
 console.log(products.data[1].price);
-
