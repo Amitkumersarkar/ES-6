@@ -3,7 +3,10 @@ class Product {
     // properties declaration
 
     country = 'Bangladesh';
-
+    // declare an constructors
+    constructor(name) {
+        this.name = name;
+    }
     // parameterized function/method
     speak(google) {
         console.log(`talking about ${google}`)
