@@ -15,6 +15,6 @@ class Product {
 
 // declaration an object and call the function
 
-const item = new Product;
+const item = new Product ('Laptop');
 item.speak('Hello World');
 console.log(item);
